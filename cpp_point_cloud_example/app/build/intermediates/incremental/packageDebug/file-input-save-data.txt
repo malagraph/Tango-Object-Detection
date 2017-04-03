@@ -1,0 +1,36 @@
+#Internal package file, do not edit.
+#Mon Mar 06 22:18:23 EST 2017
+2.base=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main\\lib\\x86\\libtango_support_api.so
+5.set=NATIVE_RESOURCE
+3.base=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main
+6.file=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main\\lib\\armeabi-v7a\\libtango_support_api.so
+2.set=ANDROID_RESOURCE
+10.set=NATIVE_RESOURCE
+10.file=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main\\lib\\arm64-v8a\\libcpp_point_cloud_example.so
+4.base=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main
+7.file=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+7.set=ANDROID_RESOURCE
+count=11
+0.file=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_launcher.png
+5.base=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main
+8.file=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+4.set=NATIVE_RESOURCE
+6.base=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main
+1.file=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main\\lib\\arm64-v8a\\libtango_support_api.so
+9.set=ANDROID_RESOURCE
+9.file=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_pointcloud.xml
+10.base=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main
+1.set=NATIVE_RESOURCE
+7.base=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+6.set=NATIVE_RESOURCE
+0.base=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.base=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+3.file=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main\\lib\\x86\\libcpp_point_cloud_example.so
+3.set=NATIVE_RESOURCE
+1.base=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main
+9.base=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\folders\\2000\\1f\\main\\lib\\armeabi-v7a\\libcpp_point_cloud_example.so
+8.set=DEX
+0.set=ANDROID_RESOURCE

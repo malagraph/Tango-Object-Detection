@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Cmala\Desktop\tango-examples-c-master\cpp_example_util\app\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="172bee05b4334bd5466bc50de0963d2a064bd1f2">
+        <dex dex="C:\Users\Cmala\Desktop\tango-examples-c-master\cpp_point_cloud_example\app\build\intermediates\pre-dexed\debug\classes_bf245e8c1724afbc4e450398bff85b864984ee4d.jar" />
+    </item>
+
+</items>
