@@ -1,4 +1,0 @@
-#Thu Mar 30 18:18:17 EDT 2017
-base.0=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

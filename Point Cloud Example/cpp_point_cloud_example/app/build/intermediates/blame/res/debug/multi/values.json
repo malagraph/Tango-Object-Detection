@@ -1,0 +1,220 @@
+[
+    {
+        "outputFile": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 55,
+                    "endOffset": 220
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1019,
+                        "endColumn": 55,
+                        "endOffset": 1070
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 225,
+                    "endColumn": 52,
+                    "endOffset": 273
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 278,
+                    "endColumn": 65,
+                    "endOffset": 339
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 344,
+                    "endColumn": 63,
+                    "endOffset": 403
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 408,
+                    "endColumn": 61,
+                    "endOffset": 465
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 470,
+                    "endColumn": 46,
+                    "endOffset": 512
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 517,
+                    "endColumn": 45,
+                    "endOffset": 558
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 563,
+                    "endColumn": 55,
+                    "endOffset": 614
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 619,
+                    "endColumn": 46,
+                    "endOffset": 661
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 666,
+                    "endColumn": 40,
+                    "endOffset": 702
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 707,
+                    "endColumn": 52,
+                    "endOffset": 755
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 760,
+                    "endColumn": 52,
+                    "endOffset": 808
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 813,
+                    "endColumn": 52,
+                    "endOffset": 861
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 866,
+                    "endLine": 19,
+                    "endColumn": 12,
+                    "endOffset": 944
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 949,
+                    "endLine": 22,
+                    "endColumn": 12,
+                    "endOffset": 1016
+                },
+                "from": {
+                    "file": "C:\\Users\\Cmala\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            }
+        ]
+    }
+]
