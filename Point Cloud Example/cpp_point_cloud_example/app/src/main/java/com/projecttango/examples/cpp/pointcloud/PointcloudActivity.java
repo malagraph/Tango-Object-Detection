@@ -59,7 +59,13 @@ public class PointcloudActivity extends Activity implements OnClickListener {
   // Average depth value (in meteres) of all the points in the current frame.
   private TextView mAverageZ;
   private TextView objectDet;
-  private TextView Orientation;
+  private TextView xOrientation;
+  private TextView yOrientation;
+  private TextView zOrientation;
+  private TextView wOrientation;
+  private TextView xTranslation;
+  private TextView yTranslation;
+  private TextView zTranslation;
 
   // GLSurfaceView and renderer, all of the graphic content is rendered
   // through OpenGL ES 2.0 in native code.
@@ -107,7 +113,13 @@ public class PointcloudActivity extends Activity implements OnClickListener {
     mPointCount = (TextView) findViewById(R.id.point_count);
 
     objectDet = (TextView)findViewById(R.id.object_info);
-    Orientation = (TextView)findViewById(R.id.Orientation_info);
+    xOrientation = (TextView)findViewById(R.id.xOrientation_info);
+    yOrientation = (TextView)findViewById(R.id.yOrientation_info);
+    zOrientation = (TextView)findViewById(R.id.zOrientation_info);
+    wOrientation = (TextView)findViewById(R.id.wOrientation_info);
+    xTranslation = (TextView)findViewById(R.id.xTranslation_info);
+    yTranslation = (TextView)findViewById(R.id.yTranslation_info);
+    zTranslation = (TextView)findViewById(R.id.zTranslation_info);
 
 
     // Text view for average depth distance (in meters).
@@ -214,8 +226,13 @@ public class PointcloudActivity extends Activity implements OnClickListener {
   // Update the debug text UI.
   private void updateUi() {
     try {
-      TangoJNINative.getOrientation();
-      Orientation.setText(String.valueOf(TangoJNINative.getOrientation()));
+      xOrientation.setText(String.valueOf(TangoJNINative.getxOrientation()));
+      yOrientation.setText(String.valueOf(TangoJNINative.getyOrientation()));
+      zOrientation.setText(String.valueOf(TangoJNINative.getzOrientation()));
+      wOrientation.setText(String.valueOf(TangoJNINative.getwOrientation()));
+      xTranslation.setText(String.valueOf(TangoJNINative.getxTranslation()));
+      yTranslation.setText(String.valueOf(TangoJNINative.getyTranslation()));
+      zTranslation.setText(String.valueOf(TangoJNINative.getzTranslation()));
       objectDet.setText(String.valueOf(TangoJNINative.getObjectInfo()));
       mPointCount.setText(String.valueOf(TangoJNINative.getVerticesCount()));
       mAverageZ.setText(String.format("%.3f", TangoJNINative.getAverageZ()));

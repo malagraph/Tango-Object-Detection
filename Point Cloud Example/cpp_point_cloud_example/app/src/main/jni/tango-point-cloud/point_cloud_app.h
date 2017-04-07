@@ -87,6 +87,14 @@ class PointCloudApp {
 
   bool GetObjectInfo();
 
+  float GetxOrientation();
+  float GetyOrientation();
+  float GetzOrientation();
+  float GetwOrientation();
+  float GetxTranslation();
+  float GetyTranslation();
+  float GetzTranslation();
+
   double* GetOrientation();
 
   // Set render camera's viewing angle, first person, third person or top down.

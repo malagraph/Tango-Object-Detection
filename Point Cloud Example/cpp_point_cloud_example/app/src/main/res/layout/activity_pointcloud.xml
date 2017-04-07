@@ -88,10 +88,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/Orientation"/>
+                android:text="@string/xOrientation"/>
 
             <TextView
-                android:id="@+id/Orientation_info"
+                android:id="@+id/xOrientation_info"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
@@ -104,10 +104,61 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/xPosition"/>
+                android:text="@string/yOrientation"/>
 
             <TextView
-                android:id="@+id/xPosition_info"
+                android:id="@+id/yOrientation_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zOrientation"/>
+
+            <TextView
+                android:id="@+id/zOrientation_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wOrientation"/>
+
+            <TextView
+                android:id="@+id/wOrientation_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xTranslation"/>
+
+            <TextView
+                android:id="@+id/xTranslation_info"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
@@ -120,10 +171,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/yPosition"/>
+                android:text="@string/yTranslation"/>
 
             <TextView
-                android:id="@+id/yPosition_info"
+                android:id="@+id/yTranslation_info"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
@@ -136,10 +187,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/zPosition"/>
+                android:text="@string/zTranslation"/>
 
             <TextView
-                android:id="@+id/zPosition_info"
+                android:id="@+id/zTranslation_info"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>

@@ -22,10 +22,13 @@
     <string name="top_down">Top</string>
     <string name="average_depth">"Average depth (m): "</string>
     <string name="point_count">"Point count: "</string>
-    <string name="Orientation">"Orientation: "</string>
-    <string name="xPosition">"X-Position: "</string>
-    <string name="yPosition">"Y-Position: "</string>
-    <string name="zPosition">"Z-Position: "</string>
+    <string name="xOrientation">"xOrientation: "</string>
+    <string name="yOrientation">"yOrientation: "</string>
+    <string name="zOrientation">"zOrientation: "</string>
+    <string name="wOrientation">"wOrientation: "</string>
+    <string name="xTranslation">"X-Translation: "</string>
+    <string name="yTranslation">"Y-Translation: "</string>
+    <string name="zTranslation">"Z-Translation: "</string>
     <string name="object">"Object: "</string>
     <string name="confidence">"Average Confidence: "</string>
 

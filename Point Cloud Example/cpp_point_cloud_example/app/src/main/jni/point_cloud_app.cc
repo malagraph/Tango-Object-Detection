@@ -16,20 +16,18 @@
 
 #include <tango-gl/conversions.h>
 #include <tango_support_api.h>
-
 #include "tango-point-cloud/point_cloud_app.h"
-double* orientationData = new double[4];
-double xOrientation, yOrientation, zOrientation, wOrientation;
+
+float xOrientation, yOrientation, zOrientation, wOrientation, xTranslation, yTranslation, zTranslation;
 namespace{
 void onPoseAvailable(void*, const TangoPoseData* pose) {
- LOGI("Position: %f, %f, %f. Orientation: %f, %f, %f, %f",
-       pose->translation[0], pose->translation[1], pose->translation[2],
-       pose->orientation[0], pose->orientation[1], pose->orientation[2],
-       pose->orientation[3]);
        xOrientation = pose->orientation[0];
        yOrientation = pose->orientation[1];
        zOrientation = pose->orientation[2];
        wOrientation = pose->orientation[3];
+       xTranslation = pose ->translation[0];
+       yTranslation = pose ->translation[1];
+       zTranslation = pose ->translation[2];
 }
 
 const int kVersionStringLength = 128;
@@ -51,6 +49,7 @@ void onPointCloudAvailableRouter(void* context,
 }  // namespace
 
 namespace tango_point_cloud {
+
 void PointCloudApp::onPointCloudAvailable(const TangoPointCloud* point_cloud) {
   TangoSupport_updatePointCloud(point_cloud_manager_, point_cloud);
 }
@@ -311,8 +310,32 @@ bool PointCloudApp::GetObjectInfo() {
         return 0;}
 }
 
-double* PointCloudApp::GetOrientation() {
-    return orientationData;//point_cloud_count_;
+float PointCloudApp::GetxOrientation() {
+    return xOrientation;
+}
+
+float PointCloudApp::GetyOrientation() {
+    return yOrientation;
+}
+
+float PointCloudApp::GetzOrientation() {
+    return zOrientation;
+}
+
+float PointCloudApp::GetwOrientation() {
+    return wOrientation;
+}
+
+float PointCloudApp::GetxTranslation() {
+    return xTranslation;
+}
+
+float PointCloudApp::GetyTranslation() {
+    return yTranslation;
+}
+
+float PointCloudApp::GetzTranslation() {
+    return zTranslation;
 }
 void PointCloudApp::SetCameraType(
     tango_gl::GestureCamera::CameraType camera_type) {

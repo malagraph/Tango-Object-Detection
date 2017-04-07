@@ -78,10 +78,46 @@ Java_com_projecttango_examples_cpp_pointcloud_TangoJNINative_getObjectInfo(jbool
   return app.GetObjectInfo();
 }
 
-JNIEXPORT double* JNICALL
-Java_com_projecttango_examples_cpp_pointcloud_TangoJNINative_getOrientation(
+JNIEXPORT float JNICALL
+Java_com_projecttango_examples_cpp_pointcloud_TangoJNINative_getxOrientation(
     JNIEnv*, jobject) {
-  return app.GetOrientation();
+  return app.GetxOrientation();
+}
+
+JNIEXPORT float JNICALL
+Java_com_projecttango_examples_cpp_pointcloud_TangoJNINative_getyOrientation(
+    JNIEnv*, jobject) {
+  return app.GetyOrientation();
+}
+
+JNIEXPORT float JNICALL
+Java_com_projecttango_examples_cpp_pointcloud_TangoJNINative_getzOrientation(
+    JNIEnv*, jobject) {
+  return app.GetzOrientation();
+}
+
+JNIEXPORT float JNICALL
+Java_com_projecttango_examples_cpp_pointcloud_TangoJNINative_getwOrientation(
+    JNIEnv*, jobject) {
+  return app.GetwOrientation();
+}
+
+JNIEXPORT float JNICALL
+Java_com_projecttango_examples_cpp_pointcloud_TangoJNINative_getxTranslation(
+    JNIEnv*, jobject) {
+  return app.GetxTranslation();
+}
+
+JNIEXPORT float JNICALL
+Java_com_projecttango_examples_cpp_pointcloud_TangoJNINative_getyTranslation(
+    JNIEnv*, jobject) {
+  return app.GetyTranslation();
+}
+
+JNIEXPORT float JNICALL
+Java_com_projecttango_examples_cpp_pointcloud_TangoJNINative_getzTranslation(
+    JNIEnv*, jobject) {
+  return app.GetzTranslation();
 }
 
 JNIEXPORT void JNICALL

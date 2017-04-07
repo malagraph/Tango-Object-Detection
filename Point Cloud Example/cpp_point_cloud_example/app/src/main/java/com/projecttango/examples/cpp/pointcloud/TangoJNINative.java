@@ -72,12 +72,17 @@ public class TangoJNINative {
   public static native int getVerticesCount();
 
   // Get average depth (in meters) in current depth frame.
-  public static native float getAverageZ();
+    public static native float getAverageZ();
 
-  public static native boolean getObjectInfo();
 
-  public static native double getOrientation();
-
+    public static native boolean getObjectInfo();
+    public static native float getxOrientation();
+    public static native float getyOrientation();
+    public static native float getzOrientation();
+    public static native float getwOrientation();
+    public static native float getxTranslation();
+    public static native float getyTranslation();
+    public static native float getzTranslation();
   // Get depth frame delta time between current frame and previous frame.
   public static native float getFrameDeltaTime();
 
