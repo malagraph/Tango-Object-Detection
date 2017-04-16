@@ -21,6 +21,8 @@
 
 #include "tango-point-cloud/point_cloud_app.h"
 
+#include <cstdlib>
+
 namespace {
 const int kVersionStringLength = 128;
 // The minimum Tango Core version required from this application.
@@ -295,10 +297,17 @@ std::vector<float> vertices;
               &ow_point_cloud.points[ow_point_cloud.num_points][0],
               vertices.begin());
 
+    //remove repeated points
+    for(int i = 0;i<vertices.size();i+=4){
+        remove_repeats(vertices, i);
+    }
+
     //appends vertices to total points
     total_points.reserve(total_points.size() + vertices.size());
     total_points.insert( total_points.end(), total_points.begin(), total_points.end() );
     total_points.insert( total_points.end(), vertices.begin(), vertices.end() );
+
+
 
     delete[] ow_point_cloud.points;
   } else {
@@ -311,6 +320,25 @@ std::vector<float> vertices;
 
   main_scene_.Render(start_service_T_device_, total_points);
 }
+
+void PointCloudApp::remove_repeats(std::vector<float>& points, int index){
+    std::vector<int> points_to_erase;
+    for(int i = 0;i<total_points.size();i+=4){ //go through all stored points
+        if(abs(points[index] - total_points[i]) < .01
+        && abs(points[index+1] - total_points[i+1]) < .01
+        && abs(points[index+2] - total_points[i+2]) < .01){ //if the point is similar, delete it
+            points_to_erase.push_back(i);
+            points_to_erase.push_back(i+1);
+            points_to_erase.push_back(i+2);
+            points_to_erase.push_back(i+3);
+        }
+    }
+    for(int i = 0;i<points_to_erase.size();i++){
+        total_points.erase(total_points.begin() + i);
+    }
+}
+
+
 
 void PointCloudApp::DeleteResources() { main_scene_.DeleteResources(); }
 

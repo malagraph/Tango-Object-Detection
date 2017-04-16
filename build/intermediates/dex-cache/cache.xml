@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\Jordan\Desktop\tango-examples-c-master\cpp_point_cloud_example\app\build\intermediates\exploded-aar\cpp_point_cloud_example\cpp_example_util\unspecified\jars\classes.jar"
+        jar="C:\Users\Jordan\Desktop\tango-examples-c-master\Tango-Object-Detection\app\build\intermediates\exploded-aar\Tango-Object-Detection\cpp_example_util\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="21.1.2"
         sha1="172bee05b4334bd5466bc50de0963d2a064bd1f2">
-        <dex dex="C:\Users\Jordan\Desktop\tango-examples-c-master\cpp_point_cloud_example\app\build\intermediates\pre-dexed\debug\cpp_point_cloud_example-cpp_example_util-unspecified_e888b0fb32ee607572f1957fea39621cd6181374.jar" />
+        <dex dex="C:\Users\Jordan\Desktop\tango-examples-c-master\Tango-Object-Detection\app\build\intermediates\pre-dexed\debug\Tango-Object-Detection-cpp_example_util-unspecified_25c71e4d38507e9e82ec565b176de25c65939136.jar" />
     </item>
 
 </items>

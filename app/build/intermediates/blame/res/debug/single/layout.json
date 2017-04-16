@@ -6,5 +6,9 @@
     {
         "merged": "C:\\Users\\Jordan\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pointcloud.xml",
         "source": "C:\\Users\\Jordan\\Desktop\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\layout\\activity_pointcloud.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jordan\\Desktop\\tango-examples-c-master\\Tango-Object-Detection\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pointcloud.xml",
+        "source": "C:\\Users\\Jordan\\Desktop\\tango-examples-c-master\\Tango-Object-Detection\\app\\src\\main\\res\\layout\\activity_pointcloud.xml"
     }
 ]

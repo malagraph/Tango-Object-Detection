@@ -6,5 +6,9 @@
     {
         "merged": "C:\\Users\\Jordan\\Downloads\\tango-examples-c-master\\cpp_point_cloud_example\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\Jordan\\Downloads\\tango-examples-c-master\\cpp_point_cloud_example\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Jordan\\Desktop\\tango-examples-c-master\\Tango-Object-Detection\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Jordan\\Desktop\\tango-examples-c-master\\Tango-Object-Detection\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     }
 ]

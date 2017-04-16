@@ -34,7 +34,12 @@ namespace tango_point_cloud {
 // PointCloudApp handles the application lifecycle and resources.
 class PointCloudApp {
  public:
+
+ //added by Jordan to keep track of points
  std::vector<float> total_points;
+ //check if point is in total_points and delete if it is
+ void remove_repeats(std::vector<float>& points, int index);
+
  bool first;
   // Constructor and deconstructor.
   PointCloudApp();
