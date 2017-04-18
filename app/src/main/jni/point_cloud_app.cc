@@ -297,9 +297,11 @@ std::vector<float> vertices;
               &ow_point_cloud.points[ow_point_cloud.num_points][0],
               vertices.begin());
 
-    //remove repeated points
-    for(int i = 0;i<vertices.size();i+=4){
-        remove_repeats(vertices, i);
+     if(total_points.size() !=0){
+        //remove repeated points
+        for(int i = 0;i<vertices.size();i+=4){
+            remove_repeats(vertices, i);
+        }
     }
 
     //appends vertices to total points
@@ -321,9 +323,15 @@ std::vector<float> vertices;
   main_scene_.Render(start_service_T_device_, total_points);
 }
 
+//remove points already in total_points. takes a vector of points to check and an index indicating
+//which index in the array to check
 void PointCloudApp::remove_repeats(std::vector<float>& points, int index){
     std::vector<int> points_to_erase;
-    for(int i = 0;i<total_points.size();i+=4){ //go through all stored points
+    LOGE("removing repeats: points size=%d. index=%d. total_points=%d", points.size(), index, total_points.size());
+    if(total_points.size() == 0 || points.size() == 0)
+        return;
+    for(int i = 0;i<total_points.size();i+=4){//go through all stored points
+        LOGE("i: %d", i);
         if(abs(points[index] - total_points[i]) < .01
         && abs(points[index+1] - total_points[i+1]) < .01
         && abs(points[index+2] - total_points[i+2]) < .01){ //if the point is similar, delete it
@@ -333,7 +341,8 @@ void PointCloudApp::remove_repeats(std::vector<float>& points, int index){
             points_to_erase.push_back(i+3);
         }
     }
-    for(int i = 0;i<points_to_erase.size();i++){
+    for(int i = points_to_erase.size()-1;i>=0;i--){
+        LOGE("removing repeats: points_to_erase=%d. i=%d. total_points=%d", points.size(), i, total_points.size());
         total_points.erase(total_points.begin() + i);
     }
 }
